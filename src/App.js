@@ -1,4 +1,3 @@
-// src/App.js
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import CalendarView from './components/Calendar';
@@ -38,7 +37,7 @@ class App extends React.Component {
 
   render() {
     return (
-      <Router>
+      <Router basename="/event-management-app">
         <Routes>
           <Route path="/" element={<CalendarView eventsData={this.state.events} onAddEvent={this.handleAddEvent} />} />
           <Route path="/event/new" element={<EventForm onAddEvent={this.handleAddEvent} />} />
