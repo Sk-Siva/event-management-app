@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+# Event Management App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple Event Management application built with React, allowing users to add events on specific dates and delete them as needed. The app integrates a calendar view, making it easy to visualize events by date.
 
-## Available Scripts
+# Features
 
-In the project directory, you can run:
+**Add Events:** Users can add events on a particular date with a title and description.
+**Delete Events:** Users can easily delete events.
+**Calendar View:** Integrated with React Calendar to display events by date.
+**Routing:** Utilizes React Router for smooth navigation between different views.
+**Styled Components:** Uses Styled Components for custom and modular styling.
 
-### `npm start`
+# Technologies Used
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+**React:** Core library for building the user interface.
+**React Calendar:** Used for the calendar view to select and display events by date.
+**React Router:** Enables navigation between different pages of the app.
+**Styled Components:** A CSS-in-JS tool for styling components in a modular and maintainable way.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+# Usage
 
-### `npm test`
+**Home Page:** Displays the calendar and a list of events on the selected date.
+**Add Event:** Navigate to the "Add Event" page to create a new event by filling in the details.
+**Event Details:** Click on any event to view its details. From here, you can delete the event.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+# File Structure
+**src/App.js:** The main application component that manages routes and state for events.
+**src/components/Calendar.js:** Displays the calendar and lists events by date.
+**src/components/EventForm.js:** A form to add a new event.
+**src/components/EventDetails.js:** Displays details of a specific event with options to delete or edit.
+**src/styledComponents:** Contains Styled Components for styling the app.
 
-### `npm run build`
+# Deployment
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+ - You Can visit the application  by clicking this link https://sk-siva.github.io/event-management-app
